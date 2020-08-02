@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+.ebu-safemargins-graphics-1080p {
+  margin-left: 97px;
+  margin-top: 54px;
+  height: 972px;
+  width: 1726px;
+  border: 1px red solid;
+  position: absolute;
+}
+
+.ebu-safemargins-content-1080p {
+  margin-left: 67px;
+  margin-top: 38px;
+  height: 1004px;
+  width: 1786px;
+  border: 1px green solid;
+  position: absolute;
+}
+
+.content-frame {
+  margin-left: 67px;
+  margin-top: 38px;
+  height: 720px;
+  width: 1280px;
+  background-color: aqua;
+  position: absolute;
+  display: block;
+  text-align: center;
+  font-size: 24pt;
+}
+.content-frame h3 {
+  margin-top: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content-super {
+  background-color: rgba(255, 128, 24, 0.3);
+  font-size: 24pt;
+  height: 150px;
+  margin-left: 67px;
+  margin-top: 863px;
+  padding-left: 1.5em;
+  position: absolute;
+  width: 1738px;
+  z-index: 20;
+}
+
+.content-ticker {
+  margin-left: 0;
+  margin-top: 1015px;
+  height: 50px;
+  width: 1905px;
+  background-color: #F0F0F0;
+  position: absolute;
+  z-index: 100;
+  font-size: 20pt;
+  padding-top: 15px;
+  padding-left: 15px;
+}

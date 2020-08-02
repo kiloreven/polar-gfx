@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'CSGO Icons';
+  src: url("../assets/fonts/csgo_icons.ttf");
+}
+i.csgo-icon {
+  font-family: "CSGO Icons";
+}

@@ -1,0 +1,68 @@
+.cs-killfeed-content {
+    width: 100%;
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Webkit stiles cannot share selector with Mozilla, becuase that breaks Webkit... */
+.cs-killfeed-content progress.cs-killfeed-team-ct::-webkit-progress-value {
+    background: #71A6FF;
+}
+.cs-killfeed-content progress.cs-killfeed-team-ct::-moz-progress-bar {
+    background: #71A6FF;
+}
+.cs-killfeed-content progress.cs-killfeed-team-t::-webkit-progress-value {
+    background: #ECCE51;
+}
+.cs-killfeed-content progress.cs-killfeed-team-t::-moz-progress-bar {
+    background: #ECCE51;
+}
+
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    margin: 0;
+}
+
+.cs-killfeed-content progress[value],
+.cs-killfeed-content progress::-webkit-progress-bar {
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #aaa;
+}
+
+.cs-killfeed-progress-container{
+    width: 50%;
+    display: inline-block;
+}
+
+.cs-killfeed-score {
+    font-size: 24pt;
+    margin: 0;
+}
+
+.cs-killfeed-teamname {
+    font-size: 18pt;
+    margin: 0;
+}
+
+.cs-killfeed-clock {
+    text-align: center;
+    font-size: 20pt;
+    margin: 0.5em;
+}
+
+.cs-killfeed-progress-right{
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+
+.cs-killfeed-team-ct {
+  color: #71A6FF;
+}
+
+.cs-killfeed-team-t {
+  color: #ECCE51;
+}

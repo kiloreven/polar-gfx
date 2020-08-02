@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Stratum2 Bold";
+  src: url("../assets/fonts/stratum2bold.ttf");
+}
+
+@font-face {
+  font-family: "Stratum2";
+  src: url("../assets/fonts/stratum2medium.ttf");
+}
+
+.cs-killfeed-item {
+  font-family: "Stratum2";
+  font-size: 20px;
+  margin: 5px 5px 0 5px;
+  min-width: 100px;
+  position: relative;
+  min-height: 35px;
+  background: rgba(0,0,0,0.5);
+  border: 3px #B50000 solid;
+  border-radius: 6px;
+  padding: 0 10px;
+  line-height: 35px;
+  display: inline-block;
+}
+
+.cs-killfeed-item-killer {
+  margin-right: 10px;
+  float: left;
+}
+
+.cs-killfeed-item-killed {
+  margin-left: 10px;
+  float: right
+}
+
+.cs-killfeed-item-ct {
+  color: #71A6FF;
+}
+
+.cs-killfeed-item-t {
+  color: #ECCE51;
+}
+
+.cs-killfeed-item-icons {
+  display: inline-block;
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Stratum2 Bold";
+  src: url("../assets/fonts/stratum2bold.ttf");
+}
+
+@font-face {
+  font-family: "Stratum2";
+  src: url("../assets/fonts/stratum2medium.ttf");
+}
+
+.cs-killfeed {
+  font-family: "Stratum2";
+  background: rgba(0,0,0,0.5);
+  border: 3px #B50000 solid;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 6px;
+  position: absolute;
+  text-align: right;
+}
